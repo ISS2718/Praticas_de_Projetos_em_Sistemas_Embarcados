@@ -1,0 +1,31 @@
+Gabriel Henrique Brioto nUSP: 12547764
+Hugo Hiroyuki Nakamura nUSP: 127320370
+Isaac Santos Soares nUSP: 12751713
+
+sel@raspberrypi:~/643713/praticas/pratica2 $ history
+    1  ifconfig
+    2  clear
+    3  pip freeze
+    4  clear
+    5  sudo pip freeze
+    6  clear
+    7  source bin/activate
+    8  pip freeze
+    9  clear
+   10  pip insall gpiozero RPi.GPIO
+   11  sudo pip install gpiozero RPi.GPIO
+   12  pip freeze
+   13  sudo pip3 install gpiozero RPi.GPIO
+   14  sudo pip3 install gpiozero
+   15  sudo mkdir praticas
+   16  cd praticas/
+   17  sudo mkdir pratica2
+   18  cd pratica2/
+   19  touch blink.py
+   20  sudo touch blink.py
+   21  clear
+   22  deactivate
+   23  clear
+   24  history > history.txt
+   25  sudo history > history.txt
+   26  history
