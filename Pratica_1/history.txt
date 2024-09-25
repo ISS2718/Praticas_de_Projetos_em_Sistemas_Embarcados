@@ -1,0 +1,105 @@
+Gabriel Henrique Brioto nUSP: 12547764
+Hugo Hiroyuki Nakamura nUSP: 127320370
+Isaac Santos Soares nUSP: 12751713
+
+sel@raspberrypi:~ $ history
+    1  sudo passwd root
+    2  reboot
+    3  clear
+    4  history
+    5  clear
+    6  sudo apt install neofetch
+    7  clear
+    8  neofetch
+    9  clear
+   10  pinout
+   11  clear
+   12  sudo apt update
+   13  sudo apt upgrade
+   14  clear
+   15  history
+   16  sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+   17  clear
+   18  ifconfig
+   19  clear
+   20  history
+   21  scp /home/iss2718/send.txt sel@192.168.2.185:/home/pi/
+   22  lscpu
+   23  lspci
+
+____________________________________________
+
+NEOFETCH
+____________________________________________
+
+OS: Debian GNU/Linux 12 (bookworm) aarch64 
+Host: Raspberry Pi 3 Model B Plus Rev 1.3 
+Kernel: 6.6.31+rpt-rpi-v8
+Uptime: 9 mins
+Packages: 1561 (dpkg) 
+Shell: bash 5.2.15 
+Resolution: 1920x1080 
+Terminal: /dev/pts/1 
+CPU: (4) @ 1.400GHz 
+Memory: 280MiB / 907MiB
+
+____________________________________________
+
+PINOUT
+____________________________________________
+
+Description: Raspberry Pi 3B+ rev 1.3 
+Revision: a020d3
+SoC: BCM2837
+RAM: 1GB
+Storage: MicroSD 
+USB ports: 4 (of which USB3) 
+Ethernet ports: 1 (300Mbps max. speed)
+Wi-fi: True 
+Bluetooth: True
+Camera ports (CSI) : 1
+Display ports (DSI): 1
+
+____________________________________________
+
+LSCPU
+____________________________________________
+
+Architecture:				aarch64
+	CPU op-mode(s): 		32-bit, 64-bit
+	Byte Order:			Little Endian
+CPU(s):					4
+	On-line CPU(s) list:		0-3
+Vendor ID:				ARM
+	Model name:			Cortex-A53
+		Model:			4
+		Thread(s) per core:	1
+		Core(s) per cluster:	4
+		Socket(s):		-
+		Cluster(s):		1
+		Stepping:		гор4
+		CPU(s) scaling MHz:	100%
+		CPU max MHz:		1400.0000
+		CPU min MHz:		600.0000
+		BogoMIPS:		38.40 
+		Flags:			fp asimd evtstrm crc32 cpuid
+Caches (sum of all):			
+	Lid: 				128 KiB (4 instances)
+	L1i:				128 KiB (4 instances)
+	L2:				512 KiB (1 instance)
+Vulnerabilities:
+	Gather data sampling:		Not affected
+	It lb multihit:			Not affected
+	Litf:				Not affected
+	Mds:				Not affected
+	Meltdown:			Not affected
+	Mmio stale data:		Not affected
+	Reg file data sampling:		Not affected
+	Retbleed:			Not affected
+	Spec rstack overflow:		Not affected
+	Spec store bypass:		Not affected
+	Spectre v1:			Mitigation; __user pointer sanitization
+	Spectre v2:			Not affected
+	Srbds:				Not affected
+	Tsx async abort:		Not affected
+____________________________________________

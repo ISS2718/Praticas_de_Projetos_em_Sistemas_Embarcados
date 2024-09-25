@@ -1,36 +1,17 @@
-# Documentação da Atividade Prática - SEL0630: Projetos em Sistemas Embarcados
+# Projetos em Sistemas Embarcados 🤖
+Bem-vindo ao repositório das práticas da disciplina de Projetos em Sistemas Embarcados. Aqui você encontrará a documentação e os códigos desenvolvidos ao longo das atividades.
 
-## Resumo
+## Prática 1: Instalação e Configuração do Raspberry Pi OS 🛠️
+[Clique aqui para acessar](./Pratica_1/)
 
-Esta atividade prática foi dividida em três partes, explorando conceitos fundamentais de programação em sistemas embarcados com a Raspberry Pi. Cada parte se concentrou em diferentes aspectos, incluindo manipulação de GPIO, controle por PWM, uso de sensores, e a introdução à computação paralela com threads e processos.
+Nesta prática, realizamos a instalação do sistema operacional Raspberry Pi OS em uma placa Raspberry Pi utilizando o "Raspberry Pi Imager". Além da instalação, configuramos funções essenciais como SSH, drivers de câmera e conexão Wi-Fi, garantindo a segurança e a funcionalidade básica da placa para futuras atividades.
 
-O uso das bibliotecas `gpiozero` e `RPi.GPIO` para facilitar o controle dos pinos GPIO foi um ponto que permeou as três práticas. 
+## Prática 2: Programação em Python para Sistemas Embarcados 🐍
+[Clique aqui para acessar](./Pratica_2/)
 
-## Parte 1: Introdução ao GPIO e Contagem Regressiva
+Esta prática focou na programação em Python para sistemas embarcados utilizando a Raspberry Pi. Exploramos conceitos de GPIO, sensores, periféricos e computação paralela. Criamos um ambiente virtual Python para isolar bibliotecas, manipulamos componentes de hardware (LEDs, botões) e utilizamos processos e threads para execução paralela.
 
-Na primeira parte da prática, o foco foi a manipulação de entradas e saídas digitais da Raspberry Pi utilizando a linguagem Python. Os conceitos principais abordados foram:
+## Prática 3: Protocolos de Comunicação em Sistemas Embarcados 🔗
+[Clique aqui para acessar](./Pratica_3/)
 
-- **GPIO (General Purpose Input/Output):** Interação direta com os pinos GPIO da Raspberry Pi, que podem ser programados para funcionar como entradas ou saídas.
-
-- **Ambiente Virtual Python:** Configuração de um ambiente isolado para garantir que as bibliotecas utilizadas não conflitem com outros projetos.
-
-## Parte 2: PWM e Sensores
-
-Na segunda parte, o objetivo foi explorar o controle de dispositivos usando PWM (modulação por largura de pulso) e a interação com sensores. PWM permite controlar o tempo em que um sinal fica em nível alto ou baixo, simulando diferentes níveis de tensão. Esta parte incluiu:
-
-- **PWM:** Utilizado para controlar dispositivos como LEDs com diferentes níveis de brilho ou motores.
-
-- **Sensores:** Implementação de scripts que interagem com sensores conectados à Raspberry Pi, como sensores de distância.
-
-## Parte 3: Computação Paralela com Threads e Processos
-
-A terceira parte introduziu os conceitos de computação paralela, com o uso de threads e processos. O foco foi criar aplicações multitarefa, em que várias funções são executadas simultaneamente, sem que uma bloqueie a outra. Conceitos adicionais abordados incluíram:
-
-- **Threads:** Execução paralela de funções dentro do mesmo processo, usando threading.
-
-- **Processos:** Execução de funções em processos separados com multiprocessing, o que pode alocar tarefas para diferentes núcleos da CPU.
-
-- **Mutex e Semáforos:** Ferramentas usadas para garantir sincronização entre tarefas concorrentes, evitando problemas como condições de corrida.
-<div align="center">
-    <img src="./img/montagem3.gif" width="250" />
-</div>
+Nesta prática, exploramos protocolos de comunicação em sistemas embarcados, especificamente I2C e SPI. Utilizando a Raspberry Pi e um microcontrolador Arduino, implementamos comunicações seriais para leitura de dados analógicos e controle de acesso via tags RFID.
