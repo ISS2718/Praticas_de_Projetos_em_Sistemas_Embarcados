@@ -1,4 +1,4 @@
-# Documentação da Atividade Prática - SEL0630: Projetos em Sistemas Embarcados 📚
+# Documentação da Atividade Prática 2 - SEL0630: Projetos em Sistemas Embarcados 📚
 
 ## Resumo 📝
 

@@ -1,4 +1,4 @@
-# 🚀 Projeto de Comunicação I2C
+# Parte 2: Projeto de Comunicação I2C 🤝
 
 Este projeto demonstra a comunicação entre um dispositivo mestre e um dispositivo escravo usando o protocolo I2C. O arquivo `i2c.py` é um script Python que atua como o mestre, enquanto `sender.ino` é um sketch Arduino que atua como o escravo.
 
@@ -6,7 +6,6 @@ Este projeto demonstra a comunicação entre um dispositivo mestre e um disposit
 
 ### 🐍 i2c.py
 Este script Python é responsável por enviar e receber dados via I2C. Ele utiliza a biblioteca `smbus` para comunicação com dispositivos I2C.
-
 ### 🔌 sender.ino
 Este sketch Arduino configura o dispositivo como um escravo I2C que pode receber comandos do mestre e responder de acordo.
 
