@@ -5,7 +5,7 @@
 <p align="center">
 <img src="https://img.shields.io/github/license/ISS2718/Praticas_de_Projetos_em_Sistemas_Embarcados"/>
 <img src="https://img.shields.io/badge/Language-Python-ffd343"/>
-<img src="https://img.shields.io/badge/Language-C/C++-blue"/>
+<img src="https://img.shields.io/badge/Language-C/C++-3186a0"/>
 <img src="https://img.shields.io/badge/OS-PiOS-E30B5C"/>
 </p>
 
