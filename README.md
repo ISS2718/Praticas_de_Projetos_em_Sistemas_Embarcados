@@ -1,5 +1,15 @@
-# Projetos em Sistemas Embarcados 🤖
-Bem-vindo ao repositório das práticas da disciplina de Projetos em Sistemas Embarcados. Aqui você encontrará a documentação e os códigos desenvolvidos ao longo das atividades.
+# 🐧Projetos em Sistemas Embarcados🍓
+
+![Capa_Projeto_Sistemas_Embarcados](https://github.com/user-attachments/assets/c564049a-3c1d-4dca-9478-c2fd31279563)
+
+<p align="center">
+<img src="https://img.shields.io/github/license/ISS2718/Praticas_de_Projetos_em_Sistemas_Embarcados"/>
+<img src="https://img.shields.io/badge/Language-Python-ffd343"/>
+<img src="https://img.shields.io/badge/Language-C/C++-blue"/>
+<img src="https://img.shields.io/badge/OS-PiOS-E30B5C"/>
+</p>
+
+Bem-vindo ao repositório das práticas da disciplina de Projetos em Sistemas Embarcados (SEL630). Aqui você encontrará a documentação e os códigos desenvolvidos ao longo das atividades.
 
 ## Prática 1: Instalação e Configuração do Raspberry Pi OS 🛠️
 [Clique aqui para acessar](./Pratica_1/)
