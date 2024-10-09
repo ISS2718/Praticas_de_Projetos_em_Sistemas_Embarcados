@@ -25,3 +25,13 @@ Esta prática focou na programação em Python para sistemas embarcados utilizan
 [Clique aqui para acessar](./Pratica_3/)
 
 Nesta prática, exploramos protocolos de comunicação em sistemas embarcados, especificamente I2C e SPI. Utilizando a Raspberry Pi e um microcontrolador Arduino, implementamos comunicações seriais para leitura de dados analógicos e controle de acesso via tags RFID.
+
+## Prática 4: Configuração do SystemD para Gerenciar Serviços Personalizados em Sistemas Embarcados 🐧
+[Clique aqui para acessar](./Pratica_4/)
+
+Esta prática tem como objetivo configurar uma unidade de serviço personalizada (`systemd service unit`) para gerenciar a inicialização automática de uma aplicação em sistemas embarcados com o sistema operacional Linux. A prática foi realizada em uma Raspberry Pi, onde um script para piscar um LED (blink) é configurado para iniciar automaticamente no boot do sistema.
+
+## Autores ✒️
+- Gabriel Henrique Brioto - nUSP: 12547764
+- Hugo Hiroyuki Nakamura - nUSP: 127320370
+- Isaac Santos Soares - nUSP: 12751713
