@@ -27,3 +27,9 @@ Este script Python é responsável por interagir com o módulo RFID-RC522 para l
 
 - **Gravação de Dados**: Permite identificar ID de uma tag RFID.
 - **Controle de Acesso**: Libera ou nega o acesso com base na identificação da tag.
+
+## 🎥 Demonstração de Funcionamento
+
+<div align="center">
+    <img src="./img/video-parte2.gif" width="400" />
+</div>

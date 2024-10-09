@@ -28,3 +28,10 @@ Este sketch Arduino configura o dispositivo como um escravo I2C que pode receber
 Execute o script Python:
 ```sh
 python i2c.py
+```
+
+## 🎥 Demonstração de Funcionamento
+
+<div align="center">
+    <img src="./img/video-parte1.gif" width="400" />
+</div>
