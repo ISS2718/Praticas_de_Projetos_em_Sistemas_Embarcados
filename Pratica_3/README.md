@@ -34,11 +34,6 @@ Nesta prática, foram explorados protocolos de comunicação em sistemas embarca
 - Sistema de controle de acesso por RFID funcional, com gravação e leitura de tags.
 - Scripts em Python implementados para gerenciar a comunicação e exibir os resultados no terminal.
 
-## Entregas 📦
-- Dois scripts `.py` comentados, um referente à comunicação I2C (Parte 1) e outro referente ao controle de acesso RFID via SPI (Parte 2).
-- Documentação em PDF ou README.md contendo explicações dos conceitos e fotos da montagem prática.
-- Prints dos terminais confirmando o funcionamento da comunicação I2C e do sistema de controle de acesso.
-
 ## Bibliografia 📖
 - [I2C Communication Between Arduino & Raspberry Pi](https://dronebotworkshop.com/i2c-arduino-raspberry-pi/)
 - [mfrc522 Python Library](https://pypi.org/project/mfrc522-python/)
