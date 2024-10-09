@@ -1,0 +1,11 @@
+[Unit]
+Description= Enable FAN
+After=multi-user.target
+
+[Service]
+ExecStart=/home/sel/ghi/blinkLED.py
+#ExecStop=
+user=SEL
+
+[Install]
+WantedBy=multi-user.target
