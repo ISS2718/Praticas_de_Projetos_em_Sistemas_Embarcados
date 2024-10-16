@@ -3,7 +3,7 @@ Description= Enable FAN
 After=multi-user.target
 
 [Service]
-ExecStart=/home/sel/ghi/blinkLED.py
+ExecStart=python /home/sel/ghi/blinkLED.py
 #ExecStop=
 user=SEL
 

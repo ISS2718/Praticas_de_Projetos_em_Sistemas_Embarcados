@@ -88,16 +88,36 @@ Esta prática tem como objetivo configurar uma unidade de serviço personalizada
    ```bash
    sudo reboot
    ```
-
+ 
 ## Resultados ✅
 Se configurado corretamente, o LED deve começar a piscar automaticamente após o boot da Raspberry Pi. Para solucionar problemas, o status do serviço pode ser verificado com:
 ```bash
 sudo systemctl status blink
 ```
 
-## Tarefas Finais 📌
-- Adicionar um novo serviço utilizando um programa em Python, seguindo os mesmos passos realizados para o script Bash.
-- Demonstrar o funcionamento do serviço ao professor ou enviar um vídeo curto demonstrando o projeto.
+## Utilizando Python 📌
+
+Utilizando o arquivo [`blinkLED.py`](blinkLED.py), criamos o arquivo [`blinkLED.service`](blinkLED.service) para configurar o serviço no systemd:
+   ```ini
+   [Unit]
+   Description=Blink LED
+   After=multi-user.target
+
+   [Service]
+   ExecStart=python /home/sel/ghi/blinkLED.py
+   User=pi
+
+   [Install]
+   WantedBy=multi-user.target
+   ```
+Enfim copiamos esse arquivo para a pasta `/lib/systemd/system/` e habilitamos o serviço para iniciar durante o boot do sistema.
+
+### 🎥 Demonstração de Funcionamento
+
+
+![Vídeo de demonstração](./img/video_demonstracao.gif)
+
+
 
 ## Referências 📚
 - [Systemd - freedesktop.org](https://www.freedesktop.org/wiki/Software/systemd/)
