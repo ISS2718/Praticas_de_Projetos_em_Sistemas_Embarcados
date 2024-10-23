@@ -31,7 +31,7 @@ Nesta prática, exploramos protocolos de comunicação em sistemas embarcados, e
 
 Esta prática tem como objetivo configurar uma unidade de serviço personalizada (`systemd service unit`) para gerenciar a inicialização automática de uma aplicação em sistemas embarcados com o sistema operacional Linux. A prática foi realizada em uma Raspberry Pi, onde um script para piscar um LED (blink) é configurado para iniciar automaticamente no boot do sistema.
 
-## Prática 5 - Introdução aos Sistemas Operacionais de Tempo Real e Projeto Final 
+## Prática 5 - Introdução aos Sistemas Operacionais de Tempo Real e Projeto Final ⏱️
 [Clique aqui para acessar](./Pratica_5/)
 
 Nesta prática, foi explorado o conceito de **Sistemas Operacionais de Tempo Real (RTOS)**, utilizando o **FreeRTOS** no microcontrolador **ESP32**. O foco é implementar tarefas concorrentes com diferentes prioridades e compreender a previsibilidade no controle de recursos em sistemas embarcados.
