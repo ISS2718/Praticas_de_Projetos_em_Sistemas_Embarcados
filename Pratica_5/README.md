@@ -33,6 +33,8 @@ A prática está dividida em duas partes:
 
 **Nosso projeto é o [**Live Share**](https://github.com/ikuyorih9/LocalShare).**
 
+[![LocalShare_capa](https://github.com/user-attachments/assets/6fbdff6e-75de-410b-9383-fa7181344ce6)](https://github.com/ikuyorih9/LocalShare)
+
 ## Resultados 📈
 
 - **Parte 1**: As duas tasks foram executadas com sucesso no **ESP32**, demonstrando a capacidade do **FreeRTOS** de gerenciar tarefas com diferentes prioridades.
