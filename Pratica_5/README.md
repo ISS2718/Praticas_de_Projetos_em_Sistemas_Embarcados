@@ -31,9 +31,9 @@ A prática está dividida em duas partes:
 
 ### Parte 2: Projeto Final de Integração
 
-Descrever prática aqui
+**Nosso projeto é o [**Live Share**](https://github.com/ikuyorih9/LocalShare).**
 
 ## Resultados 📈
 
 - **Parte 1**: As duas tasks foram executadas com sucesso no **ESP32**, demonstrando a capacidade do **FreeRTOS** de gerenciar tarefas com diferentes prioridades.
-- **Parte 2**: 
+- **Parte 2**: Está no repositório [**Live Share**](https://github.com/ikuyorih9/LocalShare).
