@@ -31,7 +31,7 @@ A prática está dividida em duas partes:
 
 ### Parte 2: Projeto Final de Integração
 
-**Nosso projeto é o [**Live Share**](https://github.com/ikuyorih9/LocalShare).**
+**Nosso projeto é o [**LocalShare**](https://github.com/ikuyorih9/LocalShare).**
 
 [![LocalShare_capa](https://github.com/user-attachments/assets/6fbdff6e-75de-410b-9383-fa7181344ce6)](https://github.com/ikuyorih9/LocalShare)
 
